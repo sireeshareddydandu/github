@@ -4,3 +4,7 @@
 
 /* Radio option visibility fix */
 .choice-list{display:flex!important;flex-direction:column!important;gap:8px!important;visibility:visible!important;opacity:1!important;height:auto!important;overflow:visible!important}.choice-option{display:flex!important;visibility:visible!important;opacity:1!important}.choice-option input[type=radio]{display:inline-block!important;visibility:visible!important;opacity:1!important;appearance:auto!important;flex-shrink:0!important}
+
+/* Sopra Steria branding */
+.brand-logo{display:block;width:210px;max-width:42vw;height:auto;max-height:48px;object-fit:contain}
+@media(max-width:560px){.brand-logo{width:155px}}
